@@ -1073,9 +1073,9 @@ braces@^1.8.2:
     preserve "^0.2.0"
     repeat-element "^1.1.2"
 
-britecharts-react@^0.3.24:
-  version "0.3.24"
-  resolved "https://registry.yarnpkg.com/britecharts-react/-/britecharts-react-0.3.24.tgz#b79e051185c47d57200d403ccbeabb91928b7614"
+britecharts-react@^0.3.25:
+  version "0.3.25"
+  resolved "https://registry.yarnpkg.com/britecharts-react/-/britecharts-react-0.3.25.tgz#e4fb8ff2f862dee11b0ceb2fc76959b50882454f"
   dependencies:
     britecharts "2.4.9"
     d3-selection "^1.1.0"
