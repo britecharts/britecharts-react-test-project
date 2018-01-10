@@ -10,8 +10,16 @@ This project will serve us in two ways:
 ## Approach
 This is a simple [Create-react-app](https://github.com/facebookincubator/create-react-app) with a donut component loaded in different ways, showing how to bring in Britecharts-react through the different methods:
 
-* Using the CDN links
-* Using NPM with the whole bundle
-* Using NPM with individual umd files
-* Using NPM with individual commonjs files
-* Using NPM and webpack using the esm files
+Using NPM
+* with the whole bundle importing as ES205
+* with the whole bundle importing as CommonJS
+* with individual esm modules from lib
+* with individual umd files from lib
+* with individual commonjs files from lib
+
+## Installation
+Follow these steps:
+1. Clone the repo
+1. Install dependencies with `yarn`
+1. Run demo with `yarn start`
+1. Navigate to localhost:3000
