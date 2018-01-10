@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { with4Slices } from './data';
 
 const Britecharts = require('britecharts-react');
-const { DonutComponent } = Britecharts;
+const { Donut } = Britecharts;
 
 const DonutChartCommonJS = () => (
-    <DonutComponent
+    <Donut
         data={with4Slices()}
     />
 );

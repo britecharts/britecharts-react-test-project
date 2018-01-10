@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {with4Slices} from './data';
-import {DonutComponent} from 'britecharts-react';
+import {Donut} from 'britecharts-react';
 
 const DonutChartImport = () => (
-    <DonutComponent
+    <Donut
         data={with4Slices()}
     />
 );

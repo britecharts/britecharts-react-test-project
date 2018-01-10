@@ -6,7 +6,7 @@ import './App.css';
 import DonutChartImport from './donut/DonutChartImport';
 import DonutChartCommonJS from './donut/DonutChartCommonJS';
 
-// import DonutChartLibESM from './donut/DonutChartLibESM';
+import DonutChartLibESM from './donut/DonutChartLibESM';
 import DonutChartLibCJS from './donut/DonutChartLibCJS';
 
 class App extends Component {
@@ -28,7 +28,7 @@ class App extends Component {
         </div>
         <div className="chart-container">
           <h3>Loading with ES Modules from lib/</h3>
-          {/* <DonutChartLibESM /> */}
+          <DonutChartLibESM />
         </div>
         <div className="chart-container">
           <h3>Loading with Common JS from lib/</h3>
