@@ -8,6 +8,7 @@ import DonutChartCommonJS from './donut/DonutChartCommonJS';
 
 import DonutChartLibESM from './donut/DonutChartLibESM';
 import DonutChartLibCJS from './donut/DonutChartLibCJS';
+import DonutChartLibUMD from './donut/DonutChartLibUMD';
 
 class App extends Component {
   render() {
@@ -33,6 +34,10 @@ class App extends Component {
         <div className="chart-container">
           <h3>Loading with Common JS from lib/</h3>
           <DonutChartLibCJS />
+        </div>
+        <div className="chart-container">
+          <h3>Loading with UMD from lib/</h3>
+          <DonutChartLibUMD />
         </div>
       </div>
     );
