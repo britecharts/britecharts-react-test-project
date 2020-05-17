@@ -1073,10 +1073,10 @@ braces@^1.8.2:
     preserve "^0.2.0"
     repeat-element "^1.1.2"
 
-britecharts-react@0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/britecharts-react/-/britecharts-react-0.5.2.tgz#e7abb2f6dc1e2e65f6bfb314a068f2084cbfb1d2"
-  integrity sha512-lgIT2FiP3Qf92dC/I10ldBMhNYw+uMipahRCFqocFFnM8iC9wqbuizniHAge1itXi4ysbiZdyiNMY9fGlraQ1Q==
+britecharts-react@0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/britecharts-react/-/britecharts-react-0.5.4.tgz#3784712ea7a53ab4826b146812a90ec5a00c244b"
+  integrity sha512-4ZTwAEzx6gc1u07OJBF+KAmgUAS7bbfIziaQzOiDV8jbPRqzl1Dppe/Hr4zZScNTELj16p3pJQUtdOIo4Hpgpw==
   dependencies:
     britecharts "2.11.0"
     d3-selection "^1.3.2"
