@@ -5,10 +5,10 @@
   "dependencies": {
     "prop-types": "^15.7.2",
     "britecharts-react": "0.5.4",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-scripts": "1.0.17",
-    "recharts": "^1.0.0-beta.7"
+    "recharts": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
