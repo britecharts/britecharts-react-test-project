@@ -1,15 +1,17 @@
-import React, { Component } from 'react';
-import reactLogo from './logos/react.svg';
-import britechartsLogo from './logos/britecharts-react.svg';
-import './App.css';
+import React, { Component } from "react";
+import reactLogo from "./logos/react.svg";
+import britechartsLogo from "./logos/britecharts-react.svg";
+import "./App.css";
 
-import DonutChartImport from './donut/DonutChartImport';
-import DonutChartCommonJS from './donut/DonutChartCommonJS';
-import DonutChartLibESM from './donut/DonutChartLibESM';
-import DonutChartLibCJS from './donut/DonutChartLibCJS';
-import DonutChartLibUMD from './donut/DonutChartLibUMD';
+import DonutChartImport from "./donut/DonutChartImport";
+import DonutChartCommonJS from "./donut/DonutChartCommonJS";
+import DonutChartLibESM from "./donut/DonutChartLibESM";
+import DonutChartLibCJS from "./donut/DonutChartLibCJS";
+import DonutChartLibUMD from "./donut/DonutChartLibUMD";
 
-import LineChartImport from './line/LineChartImport';
+import LineChartImport from "./line/LineChartImport";
+
+import "britecharts-react/dist/britecharts-react.min.css";
 
 class App extends Component {
   render() {
