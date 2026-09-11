@@ -1,25 +1,10 @@
-# Britecharts React Test Project
+# Britecharts React Test Project — archived
 
-We want to have a small example project showing the different ways Britecharts-React can be added to our user's project.
+This project moved into the Britecharts monorepo on 11 September 2026 and this
+repository is archived. What it did — checking every way of loading Britecharts React components, now on React 19 and driven by Playwright — is now done by the integration test
+package there, which runs in CI on every pull request:
 
-## Goals
-This project will serve us in two ways:
-* It will demonstrate different installation ways for our users
-* It will help us test that those different bundling targets are working properly
+https://github.com/britecharts/britecharts/tree/main/packages/integration
 
-## Approach
-This is a simple [Create-react-app](https://github.com/facebookincubator/create-react-app) with a donut component loaded in different ways, showing how to bring in Britecharts-react through the different methods:
-
-Using NPM
-* with the whole bundle importing as ES205
-* with the whole bundle importing as CommonJS
-* with individual esm modules from lib
-* with individual umd files from lib
-* with individual commonjs files from lib
-
-## Installation
-Follow these steps:
-1. Clone the repo
-1. Install dependencies with `yarn`
-1. Run demo with `yarn start`
-1. Navigate to localhost:3000
+The equivalent of this project is `consumers/react` in that package. The code in
+this repository targets `britecharts-react@0.6.5` and is kept only for history.
